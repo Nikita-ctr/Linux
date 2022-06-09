@@ -1,1 +1,0 @@
-dir1/dir3/softlink.txt
