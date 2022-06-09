@@ -1,7 +1,11 @@
 #!/bin/bash
+echo "Fourth task"
 
-cd root/
+# Чтение значений аргументов по отдельности
+echo "The value of the first argument: $1"
+echo "The value of the second argument: $2"
+echo "The value of the third argument: $3"
 
-ls -l
+avr=$((($1+$2+$3)/3)) 
+echo -e "\nAverage = $avr"
 
-echo "access rights" "user" "date" "time" "directory"

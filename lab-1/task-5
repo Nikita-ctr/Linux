@@ -1,9 +1,0 @@
-#!/bin/bash
-echo "Fifth task"
-echo -n "Enter the name: "
-read
-if [ "$REPLY" == "$USER" ]; then
-echo yes
-else
-echo no
- fi
